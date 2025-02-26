@@ -1,6 +1,4 @@
-# PBO-OOP
-
-## Repository praktikum Object Oriented Programming 
+# Object Oriented Programming 
 
 <pre>
 Nama : Khulika Malkan
