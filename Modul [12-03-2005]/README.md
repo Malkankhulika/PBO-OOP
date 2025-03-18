@@ -9,7 +9,7 @@ Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan jan
 ```
 clinic-oop-yourname/
 ├── src/
-│   └── Guided/
+│   └── guided2/
 │       └── drive/
 │           ├── TestPackages.java
 │       └── hargabuku/
@@ -20,7 +20,7 @@ clinic-oop-yourname/
 │       └── Cat.java
 │       └── Driver.java
 │       └── LibraryBook.java
-│   └── Unguided/           # Root package (REQUIRED)
+│   └── unguided2/           # Root package (REQUIRED)
 │       └── entities/       # Core classes
 │           ├── Appointment.java
 │           ├── DataChecker.java
