@@ -1,5 +1,4 @@
 # <h1 align="center">Clinic Management System</h1>
-<p align="center">Module: Encapsulation, Packages, Class Relationships</p>
 <p align="center">Khulika Malkan</p>
 <p align="center">2311110057</p>
 
