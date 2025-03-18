@@ -33,9 +33,11 @@ Modul [12-03-2025]/
 
 # 📜 Detailed Project Explanations
 ## Class Doctor
-- Menyimpan data dokter seperti id, name, dan specialty.
-- Menggunakan Encapsulation dengan private fields serta getter/setter.
-- Memiliki daftar janji temu pasien.
+### Atribut:
+- id (String) → ID unik dokter.
+- name (String) → Nama dokter.
+- specialty (String) → Spesialisasi dokter.
+- appointments (List) → Daftar janji temu dokter.
 
 ## Patient
 - Menyimpan data pasien seperti id, name, dan age.
