@@ -2,12 +2,21 @@
 <p align="center">Khulika Malkan</p>
 <p align="center">2311110057</p>
 
-## Project Structure
-Antrean prioritas adalah jenis antrian khusus yang setiap elemennya dikaitkan dengan nilai prioritas . Dan, elemen dilayani berdasarkan prioritasnya. Artinya, elemen dengan prioritas lebih tinggi dilayani terlebih dahulu. Namun, jika elemen dengan prioritas yang sama muncul, maka elemen tersebut akan dilayani sesuai urutannya dalam antrian.
-Menetapkan Nilai Prioritas Umumnya, nilai elemen itu sendiri dipertimbangkan untuk menetapkan prioritas. Misalnya, Elemen dengan nilai tertinggi dianggap sebagai elemen dengan prioritas tertinggi. 
+# Deskripsi
+Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan janji temu secara terstruktur. Sistem ini mencakup fitur Encapsulation (private fields, getter/setter), Packages (unguided2.entities), dan Class Relationships (Appointment menghubungkan Doctor, Patient eatures, DataChecker & DiagnosisCounter) untuk memastikan keamanan dan keteraturan data.
 
-# Priority Queue
-
+# Project Structure
+```
+clinic-oop-yourname/
+├── src/
+│   └── Guided/
+│   └── Unguided/           # Root package (REQUIRED)
+│       └── entities/       # Core classes
+│           ├── Doctor.java
+│           ├── Patient.java
+│           └── Appointment.java
+└── README.md  (Detailed Project Explanations)
+```
 
 Gambar diatas menunjukkan pohon biner dengan kunci terendah dan kunci tertinggi [3].
 - Kunci terendah adalah kunci yang paling dekat dengan bagian bawah pohon.
