@@ -31,7 +31,7 @@ Modul [12-03-2025]/
 └── README.md  (Detailed Project Explanations)
 ```
 
-# Penjelasan Kelas
+# Penjelasan Class
 ## Doctor
 - Menyimpan data dokter seperti id, name, dan specialty.
 - Menggunakan Encapsulation dengan private fields serta getter/setter.
@@ -41,3 +41,23 @@ Modul [12-03-2025]/
 - Menyimpan data pasien seperti id, name, dan age.
 - Menggunakan Encapsulation untuk melindungi data pasien.
 
+## Appointment (Hubungan antara Dokter dan Pasien)
+- Menghubungkan Class Doctor dengan Patient.
+- Menyimpan informasi janji temu seperti date dan diagnosis.
+- Memastikan hubungan antar objek berjalan sesuai konsep Class Relationships.
+
+## DataChecker (Validasi Data)
+- Mengecek apakah nama pasien valid (hanya huruf dan spasi).
+- Mengecek apakah umur pasien berada dalam rentang yang diperbolehkan.
+- Meningkatkan keamanan data melalui validasi input.
+
+## DiagnosisCounter (Total Diagnosis)
+- Menghitung jumlah total diagnosis yang telah diberikan.
+- Menyediakan metode statis addDiagnosis() untuk menambah jumlah diagnosis.
+- Memanfaatkan konsep static method untuk mengelola data global.
+
+## Main (Entry Point Program)
+- Membuat beberapa Doctor dan Patient untuk di jalankan (run).
+- Membuat Appointment dan menghubungkan Doctor dengan Patient.
+- Menampilkan informasi dokter, pasien, dan janji temu.
+- Menghitung total diagnosis yang diberikan menggunakan DiagnosisCounter.
