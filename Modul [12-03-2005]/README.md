@@ -21,12 +21,12 @@ Modul [12-03-2025]/
 │       └── Driver.java
 │       └── LibraryBook.java
 │   └── unguided2/           # Root package (REQUIRED)
+│       └── Main.java
 │       └── entities/       # Core classes
 │           ├── Appointment.java
 │           ├── DataChecker.java
 │           ├── DiagnosisCounter.java
 │           ├── Doctor.java
-│           ├── MainClinic.java
 │           └── Patient.java
 └── README.md  (Detailed Project Explanations)
 ```
@@ -86,7 +86,7 @@ Modul [12-03-2025]/
 ## A. Encapsulation (Enkapsulasi)
 Menggunakan private fields agar data tidak dapat diakses langsung dari luar dan Menggunakan getter dan setter untuk memberikan kontrol terhadap akses serta modifikasi data.
 ## B. Packages
-Semua kelas dikelompokkan dalam paket Unguided2.entities untuk menjaga keteraturan dan modularitas.
+Semua kelas dikelompokkan dalam paket Unguided2.entities untuk menjaga keteraturan dan modularitas. Kemudian untuk Unguided saya membuat Package Unguided2 yang berisi package entities dan class main di package unguided 2 untuk menjalankan programnya.
 ## C. Class Relationships (Hubungan Antar Kelas)
 - Association: Appointment menghubungkan Doctor dan Patient.
 - Aggregation: Appointment memiliki referensi ke Doctor dan Patient.
