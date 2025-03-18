@@ -21,13 +21,13 @@ Modul [12-03-2025]/
 │       └── Driver.java
 │       └── LibraryBook.java
 │   └── unguided2/           # Root package (REQUIRED)
-│       └── Main.java
 │       └── entities/       # Core classes
 │           ├── Appointment.java
 │           ├── DataChecker.java
 │           ├── DiagnosisCounter.java
 │           ├── Doctor.java
 │           └── Patient.java
+│       └── Main.java
 └── README.md  (Detailed Project Explanations)
 ```
 
