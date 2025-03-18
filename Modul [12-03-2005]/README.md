@@ -47,8 +47,7 @@ Pohon tersebut adalah heap biner, yang merupakan jenis struktur data heap yang m
 - parent(i): Menghitung indeks node induk dari node pada indeks i di heap. Fungsi ini menghitung indeks induk dari node yang diberikan pada indeks i.
 - leftChild(i): Menghitung indeks node anak kiri dari node pada indeks i di heap. Fungsi ini menghitung indeks anak kiri dari node yang diberikan pada indeks i.
 - rightChild(i): Menghitung indeks node anak kanan dari node pada indeks i di heap. Fungsi ini menghitung indeks anak kanan dari node yang diberikan pada indeks i.
-
-- remove(i): Menghapus elemen pada indeks i dari antrian prioritas. Ia mengganti nilai pada indeks i dengan nilai yang lebih tinggi daripada elemen lain di antrian (dicapai dengan menambahkan 1 ke maksimum saat ini). Kemudian, ia memanggil shiftUp untuk memindahkan elemen ini dengan prioritas tinggi secara artifisial ke atas di heap. Terakhir, ia memanggil extractMax untuk secara efektif menghapus elemen pada indeks i yang didorong ke atas. Fungsi ini menghapus elemen dari antrian dengan indeks yang diberikan.
+- 
 
 ## Kesimpulan
 
