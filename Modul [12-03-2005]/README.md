@@ -7,7 +7,7 @@ Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan jan
 
 # Project Structure
 ```
-clinic-oop-yourname/
+Modul [12-03-2025]/
 ├── src/
 │   └── guided2/
 │       └── drive/
@@ -32,8 +32,12 @@ clinic-oop-yourname/
 ```
 
 # Penjelasan Kelas
-## 
-Gambar diatas menunjukkan pohon biner dengan kunci terendah dan kunci tertinggi [3].
-- Kunci terendah adalah kunci yang paling dekat dengan bagian bawah pohon.
-- Kunci tertinggi adalah kunci yang paling dekat dengan bagian atas pohon.
+## Doctor
+- Menyimpan data dokter seperti id, name, dan specialty.
+- Menggunakan Encapsulation dengan private fields serta getter/setter.
+- Memiliki daftar janji temu pasien.
+
+## Patient
+- Menyimpan data pasien seperti id, name, dan age.
+- Menggunakan Encapsulation untuk melindungi data pasien.
 
