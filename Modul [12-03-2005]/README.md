@@ -32,37 +32,65 @@ Modul [12-03-2025]/
 ```
 
 # 📜 Detailed Project Explanations
-## Class Doctor
+## 1. Class Doctor
 ### Atribut:
 - id (String) → ID unik dokter.
 - name (String) → Nama dokter.
 - specialty (String) → Spesialisasi dokter.
 - appointments (List) → Daftar janji temu dokter.
+### Method:
+- Konstruktor untuk inisialisasi dokter.
+- Getter dan setter untuk akses data dokter.
+- addAppointment(Appointment appointment) → Men
 
-## Patient
-- Menyimpan data pasien seperti id, name, dan age.
-- Menggunakan Encapsulation untuk melindungi data pasien.
+## 2. Class Patient
+### Atribut:
+- id (String) → ID unik pasien.
+- name (String) → Nama pasien.
+- age (int) → Usia pasien.
+### Method:
+- Konstruktor untuk inisialisasi pasien.
+- Getter dan setter untuk akses data pasien.
 
-## Appointment (Hubungan antara Dokter dan Pasien)
-- Menghubungkan Class Doctor dengan Patient.
-- Menyimpan informasi janji temu seperti date dan diagnosis.
-- Memastikan hubungan antar objek berjalan sesuai konsep Class Relationships.
+## 3. Class Appointment (Hubungan antara Dokter dan Pasien)
+### Atribut:
+- doctor (Doctor) → Dokter yang bertanggung jawab.
+- patient (Patient) → Pasien yang membuat janji temu.
+- date (LocalDate) → Tanggal janji temu.
+- diagnosis (String) → Diagnosis yang diberikan.
+### Method:
+- Konstruktor untuk inisialisasi janji temu.
+- Getter dan setter untuk akses data janji temu.
 
-## DataChecker (Validasi Data)
-- Mengecek apakah nama pasien valid (hanya huruf dan spasi).
-- Mengecek apakah umur pasien berada dalam rentang yang diperbolehkan.
-- Meningkatkan keamanan data melalui validasi input.
+## Class DataChecker (Validasi Data)
+### Method:
+- isValidName(String name) → Memvalidasi apakah nama hanya berisi huruf dan spasi.
+- isValidAge(int age) → Memvalidasi apakah usia pasien valid (misalnya antara 0-120).
 
-## DiagnosisCounter (Total Diagnosis)
-- Menghitung jumlah total diagnosis yang telah diberikan.
-- Menyediakan metode statis addDiagnosis() untuk menambah jumlah diagnosis.
-- Memanfaatkan konsep static method untuk mengelola data global.
+## Class DiagnosisCounter (Menghitung Jumlah Diagnosis)
+### Atribut:
+- totalDiagnoses (static int) → Menyimpan jumlah total diagnosis.
+### Method:
+- addDiagnosis() → Menambahkan jumlah diagnosis.
+- getTotalDiagnoses() → Mengembalikan jumlah total diagnosis.
 
-## Main (Entry Point Program)
-- Membuat beberapa Doctor dan Patient untuk di jalankan (run).
-- Membuat Appointment dan menghubungkan Doctor dengan Patient.
+## Class Main (Entry Point Program)
+### Fungsi:
+- Membuat objek dokter dan pasien.
+- Memvalidasi data pasien menggunakan DataChecker.
+- Membuat janji temu menggunakan Appointment.
 - Menampilkan informasi dokter, pasien, dan janji temu.
 - Menghitung total diagnosis yang diberikan menggunakan DiagnosisCounter.
 
-## ✅ Output
+# 🔍 Penjelasan Konsep OOP yang Diterapkan
+## A. Encapsulation (Enkapsulasi)
+Menggunakan private fields agar data tidak dapat diakses langsung dari luar dan Menggunakan getter dan setter untuk memberikan kontrol terhadap akses serta modifikasi data.
+## B. Packages
+Semua kelas dikelompokkan dalam paket Unguided2.entities untuk menjaga keteraturan dan modularitas.
+## C. Class Relationships (Hubungan Antar Kelas)
+- Association: Appointment menghubungkan Doctor dan Patient.
+- Aggregation: Appointment memiliki referensi ke Doctor dan Patient.
+- Static Methods & Variables: DiagnosisCounter menggunakan static variable untuk menyimpan jumlah total diagnosis.
+
+# ✅ Output
 ![image](https://github.com/user-attachments/assets/13e20ebe-9a60-4347-81d5-a0db49022421)
