@@ -63,3 +63,4 @@ Modul [12-03-2025]/
 - Menghitung total diagnosis yang diberikan menggunakan DiagnosisCounter.
 
 ## ✅ Output
+![image](https://github.com/user-attachments/assets/13e20ebe-9a60-4347-81d5-a0db49022421)
