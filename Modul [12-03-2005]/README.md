@@ -10,49 +10,30 @@ Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan jan
 clinic-oop-yourname/
 ├── src/
 │   └── Guided/
+│       └── drive/
+│           ├── TestPackages.java
+│       └── hargabuku/
+│           ├── KelasHarga.java
+│       └── hargatoken/
+│           ├── KelasToken.java
+│       └── Animal.java
+│       └── Cat.java
+│       └── Driver.java
+│       └── LibraryBook.java
 │   └── Unguided/           # Root package (REQUIRED)
 │       └── entities/       # Core classes
-│           ├── Doctor.java
-│           ├── Patient.java
 │           ├── Appointment.java
 │           ├── DataChecker.java
-│           └── DiagnosisCounter.java
+│           ├── DiagnosisCounter.java
+│           ├── Doctor.java
+│           ├── MainClinic.java
+│           └── Patient.java
 └── README.md  (Detailed Project Explanations)
 ```
 
+# Penjelasan Kelas
+## 
 Gambar diatas menunjukkan pohon biner dengan kunci terendah dan kunci tertinggi [3].
 - Kunci terendah adalah kunci yang paling dekat dengan bagian bawah pohon.
 - Kunci tertinggi adalah kunci yang paling dekat dengan bagian atas pohon.
-- Kunci bawah adalah kunci yang paling dekat dengan tengah pohon.
-- Kunci tengah adalah kunci yang paling dekat dengan bagian bawah pohon.
-- Kunci tertinggi adalah kunci yang paling dekat dengan bagian atas pohon.
-
-
-## Unguided 
-### 1. Modifikasi guided diatas yang mana heap dikonstruksi secara manual berdasarkan user
-
-#### Kode Program
-```C++
-#include <iostream>
-
-```
-#### Full Code Screenshot
-![image](https://github.com/Malkankhulika/Modul-8/assets/149793653/c63fd870-e28a-471c-ae8d-40b59eb62a62)
-
-
-#### Output:
-![image](https://github.com/Malkankhulika/Modul-8/assets/149793653/087d0bc2-3c3f-4476-aa8d-684c4b58429c)
-
-
-#### Penjelasan:
-##### Struktur Data:
-- H: vector<int> yang menyimpan elemen-elemen dalam antrian prioritas. Vector adalah sebuah array yang ukurannya dapat bertambah secara dinamis.
-- heapSize: Variabel integer yang melacak jumlah elemen yang saat ini ada di antrian. Variabel ini mencatat berapa banyak elemen yang terisi dalam vector H.
-##### Fungsi:
-- parent(i): Menghitung indeks node induk dari node pada indeks i di heap. Fungsi ini menghitung indeks induk dari node yang diberikan pada indeks i.
-- leftChild(i): Menghitung indeks node anak kiri dari node pada indeks i di heap. Fungsi ini menghitung indeks anak kiri dari node yang diberikan pada indeks i.
-- rightChild(i): Menghitung indeks node anak kanan dari node pada indeks i di heap. Fungsi ini menghitung indeks anak kanan dari node yang diberikan pada indeks i.
-- 
-
-## Kesimpulan
 
