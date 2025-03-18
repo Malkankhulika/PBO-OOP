@@ -86,7 +86,7 @@ Modul [12-03-2025]/
 ## A. Encapsulation (Enkapsulasi)
 Menggunakan private fields agar data tidak dapat diakses langsung dari luar dan Menggunakan getter dan setter untuk memberikan kontrol terhadap akses serta modifikasi data.
 ## B. Packages
-Semua kelas dikelompokkan dalam paket Unguided2.entities untuk menjaga keteraturan dan modularitas. Kemudian untuk Unguided saya membuat Package Unguided2 yang berisi package entities dan class main di package unguided 2 untuk menjalankan programnya.
+Semua kelas dikelompokkan dalam paket Unguided2.entities untuk menjaga keteraturan dan modularitas. Package unguided2.entities Berisi berbagai kelas inti (entities/) untuk mengorganisir informasi dokter, pasien, dan diagnosis. Sedangkan File Main.java berfungsi sebagai pusat eksekusi program.
 ## C. Class Relationships (Hubungan Antar Kelas)
 - Association: Appointment menghubungkan Doctor dan Patient.
 - Aggregation: Appointment memiliki referensi ke Doctor dan Patient.
