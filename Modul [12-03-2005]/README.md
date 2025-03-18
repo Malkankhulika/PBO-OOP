@@ -3,7 +3,7 @@
 <p align="center">2311110057</p>
 
 # 📖 Deskripsi
-Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan janji temu secara terstruktur. Sistem ini mencakup fitur Encapsulation (private fields, getter/setter), Packages (unguided2.entities), dan Class Relationships (Appointment menghubungkan Doctor, Patient eatures, DataChecker & DiagnosisCounter) untuk memastikan keamanan dan keteraturan data.
+Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan janji temu secara terstruktur. Sistem ini mencakup Encapsulation (private fields, getter/setter), Packages (unguided2.entities), dan Class Relationships (Appointment menghubungkan Doctor, Patient eatures, DataChecker & DiagnosisCounter) untuk memastikan keamanan dan keteraturan data.
 
 # 📂 Project Structure
 ```
