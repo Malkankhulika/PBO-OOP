@@ -94,3 +94,6 @@ Semua kelas dikelompokkan dalam paket Unguided2.entities untuk menjaga keteratur
 
 # ✅ Output
 ![image](https://github.com/user-attachments/assets/13e20ebe-9a60-4347-81d5-a0db49022421)
+
+# 🏆 Kesimppulan
+Proyek Clinic Management System ini membantu saya memahami konsep Encapsulation, Packages, dan Class Relationships dalam OOP untuk membangun sistem yang aman, terstruktur, dan mudah dikembangkan. Encapsulation diterapkan dengan menjadikan atribut dalam kelas bersifat private, sehingga data tetap terlindungi dan hanya dapat diakses melalui metode getter dan setter, yang memastikan validitas serta keamanan data. Packages digunakan untuk mengorganisasi kode secara sistematis sedangkan, Class Relationships mencerminkan hubungan antarobjek dalam sistem, di mana kelas Appointment berperan sebagai penghubung antara Doctor dan Patient, yang menunjukkan penerapan konsep Association dan Aggregation.
