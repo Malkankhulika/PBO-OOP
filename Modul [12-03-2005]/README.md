@@ -61,3 +61,5 @@ Modul [12-03-2025]/
 - Membuat Appointment dan menghubungkan Doctor dengan Patient.
 - Menampilkan informasi dokter, pasien, dan janji temu.
 - Menghitung total diagnosis yang diberikan menggunakan DiagnosisCounter.
+
+## Output
