@@ -14,7 +14,9 @@ clinic-oop-yourname/
 │       └── entities/       # Core classes
 │           ├── Doctor.java
 │           ├── Patient.java
-│           └── Appointment.java
+│           ├── Appointment.java
+│           ├── DataChecker.java
+│           └── DiagnosisCounter.java
 └── README.md  (Detailed Project Explanations)
 ```
 
@@ -25,11 +27,6 @@ Gambar diatas menunjukkan pohon biner dengan kunci terendah dan kunci tertinggi 
 - Kunci tengah adalah kunci yang paling dekat dengan bagian bawah pohon.
 - Kunci tertinggi adalah kunci yang paling dekat dengan bagian atas pohon.
 
-
-Pohon tersebut adalah heap biner, yang merupakan jenis struktur data heap yang memiliki sifat-sifat berikut:
-- Setiap node memiliki paling banyak dua node anak.
-- Nilai setiap node lebih besar dari atau sama dengan nilai node anaknya (untuk heap maks) atau lebih kecil dari atau sama dengan nilai node anaknya (untuk heap min).
-- Sifat heap dipertahankan untuk semua node di pohon.
 
 ## Unguided 
 ### 1. Modifikasi guided diatas yang mana heap dikonstruksi secara manual berdasarkan user
