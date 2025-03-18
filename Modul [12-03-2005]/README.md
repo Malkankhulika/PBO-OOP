@@ -5,7 +5,7 @@
 # 📖 Deskripsi
 Clinic Management System ini dibuat untuk mengelola data dokter, pasien, dan janji temu secara terstruktur. Sistem ini mencakup fitur Encapsulation (private fields, getter/setter), Packages (unguided2.entities), dan Class Relationships (Appointment menghubungkan Doctor, Patient eatures, DataChecker & DiagnosisCounter) untuk memastikan keamanan dan keteraturan data.
 
-# Project Structure
+# 📂 Project Structure
 ```
 Modul [12-03-2025]/
 ├── src/
@@ -31,8 +31,8 @@ Modul [12-03-2025]/
 └── README.md  (Detailed Project Explanations)
 ```
 
-# Penjelasan Class
-## Doctor
+# 📜 Detailed Project Explanations
+## Class Doctor
 - Menyimpan data dokter seperti id, name, dan specialty.
 - Menggunakan Encapsulation dengan private fields serta getter/setter.
 - Memiliki daftar janji temu pasien.
@@ -62,4 +62,4 @@ Modul [12-03-2025]/
 - Menampilkan informasi dokter, pasien, dan janji temu.
 - Menghitung total diagnosis yang diberikan menggunakan DiagnosisCounter.
 
-## Output
+## ✅ Output
